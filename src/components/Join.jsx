@@ -11,27 +11,27 @@ function Join() {
               <div className='w-3/5 p-2 text-white space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12'>
       <section className=" p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 mt-10">
       <h1 className="text-2xl font-bold text-indigo-900 capitalize dark:text-white">Apply Now</h1>
-      <form>
+      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
          <div className='flex flex-wrap pt-8'>
           <div className='w-1/2'>
-             <label className="text-black text-sm dark:text-gray-200">Firstname</label>
-             <input  type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 font-none bg-white border-2 border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+             <label className="block text-black text-sm dark:text-gray-200 mb-2">Firstname</label>
+             <input  type="text" className="block w-full sm:w-2/3 md:w-1/2 px-4 py-2 mt-2 text-gray-700 font-none bg-white border-2 border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
           </div>
           <div className='w-1/2 pl-3'>
               <label className="text-black text-sm dark:text-gray-200">Lastname</label>
-              <input  type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+              <input  type="text" className="block w-full sm:w-2/3 md:w-1/2 px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
           </div>
           <div className='w-1/2 pt-2'>
             <label className="text-black text-sm dark:text-gray-200">Email Address</label>
-            <input  type="email" className="block w-full px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+            <input  type="email" className="block w-full sm:w-2/3 md:w-1/2 px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
           </div>
           <div className='w-1/2 pl-3 pt-2'>
             <label className="text-black text-sm dark:text-gray-200">Location</label>
-            <input  type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+            <input  type="text" className="block w-full sm:w-2/3 md:w-1/2 px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
           </div>
           <div className='w-1/2 pt-2'>
             <label className="text-black text-sm dark:text-gray-200">Date of Birth</label>
-            <input  type="date" className="block w-full px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
+            <input  type="date" className="block w-full sm:w-2/3 md:w-1/2 px-4 py-2 mt-2 text-gray-700 font-none bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"/>
           </div>
           <div className='w-1/2 pl-3 pt-2'>
              <label className="text-black text-sm dark:text-gray-200">Sex</label>
