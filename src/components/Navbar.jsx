@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/Real UDC logo.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div>
       {/* Desktop Navigation */}
-      <nav className="hidden md:block bg-white shadow-xl md:pb-6 w-full" style={{ position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white' }}>
-        <div className="nav-menu p-12 flex items-center w-full overflow-hidden">
+      <nav className="hidden md:block bg-white shadow-2xl md:pb-14 w-full" style={{ position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white' }}>
+        <div className="nav-menu p-4 flex items-center w-full overflow-hidden">
           <div className="menus flex w-full">
             <div
               id="brand"
@@ -21,43 +21,43 @@ const Navbar = () => {
             >
               <img
                 src={logo}
-                className="object-contain md:max-w-[49%] bg-wite"
+                className="object-contain md:max-w-[54%] bg-wite"
                 alt="logo"
               />
-              <i className="font-medium text-blue-700 text-sm py-12">
-                UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
-              </i>
+              {/* <i className="font-medium text-blue-700 text-sm py-12">
+                UNIVERSAL DESIGN AND CONSTRUCTION LTD
+              </i> */}
             </div>
-            <div className="flex gap-20 justify-between items-center lg:ml-96">
-              <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-medium">
+            <div className="flex gap-20 justify-between items-center lg:ml-96 mt-10">
+              <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-bold">
                 HOME
               </NavLink>
               <NavLink
                 to="/about"
                 id="ABOUTUS"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 ABOUT US
               </NavLink>
               <NavLink
                 to="/services"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 OUR SERVICES
               </NavLink>
               <NavLink
                 to="/projects"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 PROJECTS
               </NavLink>
               <NavLink
                 to="/contacts"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 CONTACT
               </NavLink>
@@ -65,6 +65,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
 
       {/* Mobile and Tablet Navigation */}
       <nav className="block md:hidden bg-white shadow-xl md:pb-6 w-full" style={{ position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white' }}>
